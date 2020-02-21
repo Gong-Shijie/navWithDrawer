@@ -32,6 +32,7 @@ public class GalleryFragment extends Fragment {
         Log.i("gong", "testgit");
 
         FragmentGalleryBinding binding ;
+        FragmentGalleryBinding binding1;
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_gallery,container,false);
 
         binding.setData(galleryViewModel);
