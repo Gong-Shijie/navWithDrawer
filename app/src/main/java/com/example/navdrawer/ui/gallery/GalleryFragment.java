@@ -25,6 +25,8 @@ public class GalleryFragment extends Fragment {
 
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         Log.i("gong", "testgit");
+        Log.i("gong", "testgit");
+        Log.i("gong", "testgit");
        FragmentGalleryBinding binding ;
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_gallery,container,false);
 
