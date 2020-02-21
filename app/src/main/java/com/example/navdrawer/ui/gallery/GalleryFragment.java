@@ -1,6 +1,7 @@
 package com.example.navdrawer.ui.gallery;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,7 @@ public class GalleryFragment extends Fragment {
         galleryViewModel = new ViewModelProvider(requireActivity()).get(GalleryViewModel.class);
 
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-
+        Log.i("gong", "testgit");
        FragmentGalleryBinding binding ;
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_gallery,container,false);
 
